@@ -212,7 +212,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 705957004}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.423, z: 0}
+  m_LocalPosition: {x: -245, y: 0.423, z: 245}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2056987180}
@@ -488,6 +488,7 @@ GameObject:
   - component: {fileID: 1493939792}
   - component: {fileID: 1493939791}
   - component: {fileID: 1493939790}
+  - component: {fileID: 1493939794}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -556,11 +557,42 @@ Transform:
   m_GameObject: {fileID: 1493939789}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 1, z: 10}
+  m_LocalScale: {x: 50, y: 1, z: 50}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1493939794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1493939789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 850ba4816fb69994d928b968ca32e0f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pA: {x: -240, y: 1, z: 245}
+  pB: {x: -200, y: 1, z: 245}
+  pC: {x: -240, y: 1, z: 200}
+  pD: {x: -200, y: 1, z: 200}
+  pA1: {x: 0, y: 0, z: 0}
+  pB1: {x: 0, y: 0, z: 0}
+  pC1: {x: 0, y: 0, z: 0}
+  pD1: {x: 0, y: 0, z: 0}
+  pA2: {x: 0, y: 0, z: 0}
+  pB2: {x: 0, y: 0, z: 0}
+  pC2: {x: 0, y: 0, z: 0}
+  pD2: {x: 0, y: 0, z: 0}
+  pA3: {x: 0, y: 0, z: 0}
+  pB3: {x: 0, y: 0, z: 0}
+  pC3: {x: 0, y: 0, z: 0}
+  pD3: {x: 0, y: 0, z: 0}
+  ponto1: {fileID: 1994310676528654, guid: 3c31797884bc4d841b48da4d515e4bf4, type: 2}
+  ponto2: {fileID: 1994310676528654, guid: 9e358bb101eff8a408afbff18df9af27, type: 2}
+  ponto3: {fileID: 1994310676528654, guid: 2d00f51e31676124c90dda7d36e5516f, type: 2}
+  ponto4: {fileID: 1994310676528654, guid: 394022158d2825e4c847af17079b79e6, type: 2}
 --- !u!1 &1574134006
 GameObject:
   m_ObjectHideFlags: 0
