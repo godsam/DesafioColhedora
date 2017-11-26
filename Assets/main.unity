@@ -212,7 +212,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 705957004}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -245, y: 0.423, z: 245}
+  m_LocalPosition: {x: -245, y: 0.423, z: 242.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2056987180}
@@ -490,8 +490,8 @@ GameObject:
   - component: {fileID: 1493939790}
   - component: {fileID: 1493939794}
   m_Layer: 0
-  m_Name: Plane
-  m_TagString: Untagged
+  m_Name: Terreno
+  m_TagString: terreno
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -577,18 +577,18 @@ MonoBehaviour:
   pB: {x: -200, y: 1, z: 245}
   pC: {x: -240, y: 1, z: 200}
   pD: {x: -200, y: 1, z: 200}
-  pA1: {x: 0, y: 0, z: 0}
-  pB1: {x: 0, y: 0, z: 0}
-  pC1: {x: 0, y: 0, z: 0}
-  pD1: {x: 0, y: 0, z: 0}
-  pA2: {x: 0, y: 0, z: 0}
-  pB2: {x: 0, y: 0, z: 0}
-  pC2: {x: 0, y: 0, z: 0}
-  pD2: {x: 0, y: 0, z: 0}
-  pA3: {x: 0, y: 0, z: 0}
-  pB3: {x: 0, y: 0, z: 0}
-  pC3: {x: 0, y: 0, z: 0}
-  pD3: {x: 0, y: 0, z: 0}
+  pA1: {x: -220, y: 1, z: 235}
+  pB1: {x: -180, y: 1, z: 235}
+  pC1: {x: -220, y: 1, z: 180}
+  pD1: {x: -180, y: 1, z: 180}
+  pA2: {x: -230, y: 1, z: 240}
+  pB2: {x: -200, y: 1, z: 240}
+  pC2: {x: -230, y: 1, z: 230}
+  pD2: {x: -200, y: 1, z: 230}
+  pA3: {x: -235, y: 1, z: 232}
+  pB3: {x: -220, y: 1, z: 232}
+  pC3: {x: -235, y: 1, z: 222}
+  pD3: {x: -220, y: 1, z: 222}
   ponto1: {fileID: 1994310676528654, guid: 3c31797884bc4d841b48da4d515e4bf4, type: 2}
   ponto2: {fileID: 1994310676528654, guid: 9e358bb101eff8a408afbff18df9af27, type: 2}
   ponto3: {fileID: 1994310676528654, guid: 2d00f51e31676124c90dda7d36e5516f, type: 2}
@@ -755,8 +755,9 @@ GameObject:
   - component: {fileID: 2056987180}
   - component: {fileID: 2056987183}
   - component: {fileID: 2056987181}
+  - component: {fileID: 2056987182}
   m_Layer: 0
-  m_Name: Coledora
+  m_Name: Colhedora
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -807,6 +808,18 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &2056987182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2056987179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f53fae504095974ea937469efc95e63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terreno: {fileID: 1493939794}
 --- !u!33 &2056987183
 MeshFilter:
   m_ObjectHideFlags: 0

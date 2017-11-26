@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Colhedora.cs" />
      <Compile Include="Assets\Scripts\Trator.cs" />
      <Compile Include="Assets\Scripts\terreno.cs" />
  <Reference Include="UnityEngine.UI">
