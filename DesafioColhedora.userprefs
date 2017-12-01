@@ -1,14 +1,18 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Colhedora.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Trator.cs">
     <Files>
-      <File FileName="Assets\Scripts\terreno.cs" Line="52" Column="22" />
-      <File FileName="Assets\Scripts\Colhedora.cs" Line="38" Column="4" />
+      <File FileName="Assets\Scripts\terreno.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Colhedora.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Trator.cs" Line="27" Column="12" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State>
           <Value>transform.position</Value>
+          <Value>distancia</Value>
+          <Value>nextPos</Value>
+          <Value>direcao</Value>
         </State>
       </Pad>
     </Pads>
